@@ -11,27 +11,27 @@
 
 4. 프로젝트 설명
  
-     - 데이터 수집 : 네이버자동차(auto.naver.com)의 국내 차량 브랜드(KIA, HYUNDAI, GENESIS, SSAGYONG, SAMSUMG)별 댓글과
+   - 데이터 수집 : 네이버자동차(auto.naver.com)의 국내 차량 브랜드(KIA, HYUNDAI, GENESIS, SSAGYONG, SAMSUMG)별 댓글과
                     다음자동차(auto.daum.net)의 댓글을 직접 수집하였다.
        
-     - 데이터 전처리 : 정규식을 사용하여 수집한 데이터에서 이모티콘 및 불용어구를 제외, 불필요한 내용을 포함한 댓글과
+   - 데이터 전처리 : 정규식을 사용하여 수집한 데이터에서 이모티콘 및 불용어구를 제외, 불필요한 내용을 포함한 댓글과
        중복된 댓글을 제거하였다. 분석의 정확도를 높이기 위해 hanspell 모듈을 사용하여 띄어쓰기, 맞춤법 전처리 과정을 거쳤다.
        전처리 과정을 거친 다음 댓글은 긍정댓글 1536개, 부정댓글 1507개로 이루어져있다.
-       
-     - 모델링
-         A. 형태소 분석에는 Kiwi 라이브러리를 사용하였고 불용어리스트를 자체적으로 만들어 명사, 동사, 감탄사를 추출했다.
-            Countvetorizer를 사용하여 단어문서행렬을 만들었고 케라스 모델로 학습하여 네이버 댓글의 긍/부정을 예측하였다.
+    
+  - 모델링
+      A. 형태소 분석에는 Kiwi 라이브러리를 사용하였고 불용어리스트를 자체적으로 만들어 명사, 동사, 감탄사를 추출했다.
+         Countvetorizer를 사용하여 단어문서행렬을 만들었고 케라스 모델로 학습하여 네이버 댓글의 긍/부정을 예측하였다.
 
-         B. gensim LDA 모델을 이용한 주제분석으로 Kiwi 라이브러리를 통해 명사만 추출하였다.
+      B. gensim LDA 모델을 이용한 주제분석으로 Kiwi 라이브러리를 통해 명사만 추출하였다.
        
 
      
 5. 프로젝트 역할
-    - 개인 프로젝트
+   
+   - 개인 프로젝트
 
-6. 프로젝트 결과
-
-   - https://docs.google.com/presentation/d/1zEoSS8mAbJGWGZNCFrAuYp_NBGVG3hN1/edit#slide=id.p1
-     
+7. 프로젝트 결과
+   
+   - https://docs.google.com/presentation/d/1zEoSS8mAbJGWGZNCFrAuYp_NBGVG3hN1/edit?usp=drive_link&ouid=117396734506235777363&rtpof=true&sd=true
 
    
