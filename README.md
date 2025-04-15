@@ -33,6 +33,11 @@
 
 7. 프로젝트 결과
    
-   - https://docs.google.com/presentation/d/1zEoSS8mAbJGWGZNCFrAuYp_NBGVG3hN1/edit?usp=drive_link&ouid=117396734506235777363&rtpof=true&sd=true
+   ![image](https://github.com/user-attachments/assets/46e81ca2-dd3b-41e6-b67c-a2d1841d1612)
+   
+   positive_ratio : 긍정댓글비율
+   
+   sale : car sales/maker sales(제조사 내 해당 차량 판매비율)
+
 
    
